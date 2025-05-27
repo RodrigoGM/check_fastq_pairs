@@ -1,8 +1,5 @@
 # Check FASTQ Pairs
 
-## Disclosure:
-Code written using ChatGTP
-
 ## Summary of Dependencies for GCC 11.2.0
 
 | Dependency      | Required For           | Minimum Version     | Installed By         |
@@ -40,3 +37,6 @@ Four column table on `stdout`
 ### Tested on 
 * CentOS Linux 7
 * macOS 13.6.9
+
+## Disclosures
+This tool was created with support from ChatGPT.
