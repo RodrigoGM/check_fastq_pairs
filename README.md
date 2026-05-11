@@ -35,6 +35,7 @@ test_fq/unsynced_R1.fastq.gz	10	10	False
 
 Four column table on `stdout` 
 
+|--------------|--------------------|--------------------|-------------------------------|
 | R1 file name | number of R1 reads | number of R2 reads | synchronized reads True/False |
 
 
@@ -53,6 +54,11 @@ Four column table on `stdout`
 
 ### Exit codes
 
+| Code | Meaning                                   |
+|------|-------------------------------------------|
+| 0    | Files are well-formed and pass all checks |
+| 1    | Usage error or file open failure          |
+| 2    | Malformed or truncated FASTQ detected     |
 
 
 ### Tested on 
