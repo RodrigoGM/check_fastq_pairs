@@ -1,8 +1,5 @@
 # Check FASTQ Pairs
 
-## Disclosure:
-Code written using ChatGTP
-
 ## Summary of Dependencies for GCC 11.2.0
 
 | Dependency      | Required For           | Minimum Version     | Installed By         |
@@ -24,7 +21,7 @@ g++ -O3 check_fastq_pairs.cpp -o check_fastq_pairs -lz
 ## Usage
 
 ```bash
-./check_fastq_pairs test/synced_R{1,2}.fastq.gz
+./check_fastq_pairs test_fq/synced_R{1,2}.fastq.gz
 test_fq/synced_R1.fastq.gz	10	10	True
 
 ./check_fastq_pairs test_fq/unsynced_R{1,2}.fastq.gz
@@ -40,3 +37,6 @@ Four column table on `stdout`
 ### Tested on 
 * CentOS Linux 7
 * macOS 13.6.9
+
+## Disclosures
+This tool was created with support from ChatGPT.
