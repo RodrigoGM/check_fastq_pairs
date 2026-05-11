@@ -35,8 +35,9 @@ test_fq/unsynced_R1.fastq.gz	10	10	False
 
 Four column table on `stdout` 
 
-|--------------|--------------------|--------------------|-------------------------------|
 | R1 file name | number of R1 reads | number of R2 reads | synchronized reads True/False |
+|--------------|--------------------|--------------------|-------------------------------|
+|              |                    |                    |                               |
 
 
 ### Extended version:
